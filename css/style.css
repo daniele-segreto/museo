@@ -156,3 +156,38 @@ h1 {
     padding: 3px 30px;
     margin-top: 2px;
 }
+
+
+.fa {
+    transition: transform 0.3s ease-in-out; /* Aggiunge una transizione fluida */
+    
+    /* Imposta l'origine di trasformazione al centro dell'icona */
+    transform-origin: center;
+}
+
+.fa:hover {
+    /* Aggiunge l'animazione durante il passaggio del mouse */
+    animation: rotate 2s infinite;
+}
+
+@keyframes rotate {
+    /* Definisce l'animazione di rotazione */
+    20% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Stile Tab - Sezione Opere */
+#tabs {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.ui-state-active a {
+    background-color: black !important;
+    color: white;
+    /* border-color: black !important;
+    outline: none; */
+}
