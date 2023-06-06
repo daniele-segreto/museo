@@ -1,4 +1,0 @@
-Ho utilizzato le classi container, row e col-lg-* per creare un layout responsivo.
-La classe container viene utilizzata come contenitore principale.
-La classe row viene utilizzata per creare una riga e le classi col-lg-*.
-Ho utilizzato due @mediaQuery sul file CSS per gestire banner, footer e alcuni bordi sui dispositivi con larhezza massima 768px e 567px.
